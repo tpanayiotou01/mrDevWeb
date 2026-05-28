@@ -5,7 +5,7 @@ const gambinoImg = "/assets/gambino-BykL8qpO.png";
 const squidethImg = "/assets/squideth-ZqnJSQXR.png";
 const bodyHarmonyImg = "/assets/body-harmony-B6_ZrWiO.png";
 const danosImg = "/assets/danos-BwITwjm-.png";
-const CONTACT_EMAIL = "hello@themrdev.xyz";
+const CONTACT_EMAIL = "themrdevteaches@gmail.com";
 const skills = [{
   icon: Wallet,
   label: "Smart Contracts",

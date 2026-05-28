@@ -3,11 +3,25 @@
     {
       "source": "/(.*)",
       "destination": "/",
-      "has": [{ "type": "header", "key": "sec-fetch-dest", "value": "document" }]
-    },
-    { "source": "/(.*)", "destination": "/" }
+      "has": [
+        { "type": "header", "key": "sec-fetch-dest", "value": "document" },
+        { "type": "header", "key": "accept", "value": "text/html" }
+      ]
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
   ]
 }
+
 
 
 

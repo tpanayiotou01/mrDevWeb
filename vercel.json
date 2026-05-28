@@ -1,7 +1,13 @@
 {
   "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/",
+      "has": [{ "type": "header", "key": "sec-fetch-dest", "value": "document" }]
+    },
     { "source": "/(.*)", "destination": "/" }
   ]
 }
+
 
 
